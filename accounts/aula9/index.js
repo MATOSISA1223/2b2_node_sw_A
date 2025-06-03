@@ -1,7 +1,7 @@
 const inquirer = require('inquirer')
 const accountModule = require('./modules/moduleAccounts')
+const manager = require('')
 const chalk = require('chalk')
-
 const fs = require('fs')
 operation()
 function operation() {
